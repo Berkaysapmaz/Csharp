@@ -7,11 +7,8 @@ public class Solution {
       int max = numbersList.Max();
       int min = numbersList.Min();
       numbersList.Remove(min);
-      //Console.WriteLine(numbersList.Count());
       numbersList.Remove(max);
-      //Console.WriteLine(numbersList.Count());
       double avg = (max+min)/2.0;
-      Console.WriteLine(avg);
           if(!nbList.Contains(avg)){
                   nbList.Add(avg);
           
